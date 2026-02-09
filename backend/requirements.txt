@@ -1,6 +1,7 @@
 # Core
 fastapi>=0.109.0
 uvicorn[standard]>=0.27.0
+pydantic[email]>=2.0.0
 pydantic-settings>=2.1.0
 
 # Database
@@ -9,9 +10,9 @@ asyncpg>=0.29.0
 geoalchemy2>=0.14.3
 alembic>=1.13.0
 
-# Auth
+# Auth (bcrypt used directly; passlib optional)
 python-jose[cryptography]>=3.3.0
-passlib[bcrypt]>=1.7.4
+bcrypt>=4.0
 
 # Redis & real-time
 redis>=5.0.0

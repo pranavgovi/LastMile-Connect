@@ -1,14 +1,12 @@
-version: "3.8"
-
 services:
   postgres:
-    image: postgis/postgis:15-3.2
+    image: postgis/postgis:15-3.5
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
       POSTGRES_DB: lastmile
     ports:
-      - "5432:5432"
+      - "5433:5432"  # host 5433 to avoid conflict with local Postgres on 5432
     volumes:
       - postgres_data:/var/lib/postgresql/data
     healthcheck:
