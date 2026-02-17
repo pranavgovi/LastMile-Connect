@@ -1,0 +1,908 @@
+[
+  {
+    "id": "104931-2329808",
+    "name": "W Tennessee Street and N Macomb Street",
+    "lat": 30.444821,
+    "lng": -84.288119
+  },
+  {
+    "id": "104931-2329809",
+    "name": "W Tennessee Street and N Copeland Street",
+    "lat": 30.44481,
+    "lng": -84.291068
+  },
+  {
+    "id": "104931-2329810",
+    "name": "W Tennessee Street and Raven St",
+    "lat": 30.444841,
+    "lng": -84.292798
+  },
+  {
+    "id": "104931-2329811",
+    "name": "W Tennessee Street and W Brevard Street",
+    "lat": 30.448418,
+    "lng": -84.30241
+  },
+  {
+    "id": "104931-2329812",
+    "name": "W Tennessee Street and Basin Street",
+    "lat": 30.449188,
+    "lng": -84.306548
+  },
+  {
+    "id": "104931-2329813",
+    "name": "W Tennessee Street and Caliark Street",
+    "lat": 30.44919,
+    "lng": -84.311368
+  },
+  {
+    "id": "104931-2329871",
+    "name": "W Tennessee Street and Caliark Street",
+    "lat": 30.448941,
+    "lng": -84.310643
+  },
+  {
+    "id": "104931-2329872",
+    "name": "W Tennessee Street and Stadium Drive",
+    "lat": 30.448905,
+    "lng": -84.306962
+  },
+  {
+    "id": "104931-2329873",
+    "name": "W Tennessee Street and N Copeland Street",
+    "lat": 30.444598,
+    "lng": -84.291003
+  },
+  {
+    "id": "104931-2329874",
+    "name": "W Tennessee Street and N Martin Luther King Jr. Boulevard",
+    "lat": 30.444589,
+    "lng": -84.285775
+  },
+  {
+    "id": "104931-2329890",
+    "name": "W College Avenue and S Martin Luther King Jr. Boulevard",
+    "lat": 30.44075,
+    "lng": -84.285634
+  },
+  {
+    "id": "104931-2329898",
+    "name": "Jackson Bluff Road and Murat Street",
+    "lat": 30.434413,
+    "lng": -84.310765
+  },
+  {
+    "id": "104931-2329899",
+    "name": "Jackson Bluff Road and Hayden Road",
+    "lat": 30.43443,
+    "lng": -84.307417
+  },
+  {
+    "id": "104931-2329900",
+    "name": "W Lake Bradford Road and Jackson Bluff Road",
+    "lat": 30.434551,
+    "lng": -84.302035
+  },
+  {
+    "id": "104931-2329902",
+    "name": "S Copeland Street and W Street Augustine Street",
+    "lat": 30.43784,
+    "lng": -84.29062
+  },
+  {
+    "id": "104931-2329903",
+    "name": "S Bronough Street and W College Avenue",
+    "lat": 30.440913,
+    "lng": -84.284423
+  },
+  {
+    "id": "104931-2329906",
+    "name": "W Pensacola Street and Chapel Drive",
+    "lat": 30.440346,
+    "lng": -84.310721
+  },
+  {
+    "id": "104931-2329907",
+    "name": "W Pensacola Street and Rivoli Road",
+    "lat": 30.440175,
+    "lng": -84.309417
+  },
+  {
+    "id": "104931-2329908",
+    "name": "Stadium Drive and Hendry Street",
+    "lat": 30.436203,
+    "lng": -84.305851
+  },
+  {
+    "id": "104931-2329909",
+    "name": "Florida State University Second Circle",
+    "lat": 30.436713,
+    "lng": -84.30437
+  },
+  {
+    "id": "104931-2329910",
+    "name": "Stadium Drive and Doak Campbell Stadium",
+    "lat": 30.436158,
+    "lng": -84.304433
+  },
+  {
+    "id": "104931-2329911",
+    "name": "S Macomb Street and W Jefferson Street",
+    "lat": 30.439842,
+    "lng": -84.288503
+  },
+  {
+    "id": "104931-2329912",
+    "name": "Gaines Street and Woodward Avenue",
+    "lat": 30.435561,
+    "lng": -84.298363
+  },
+  {
+    "id": "104931-2329926",
+    "name": "W Call Street and Chapel Drive",
+    "lat": 30.447911,
+    "lng": -84.310026
+  },
+  {
+    "id": "104931-2329927",
+    "name": "W Call Street and Conradi Street",
+    "lat": 30.447264,
+    "lng": -84.30815
+  },
+  {
+    "id": "104931-2329928",
+    "name": "Stadium Drive and W Call Street",
+    "lat": 30.446197,
+    "lng": -84.306358
+  },
+  {
+    "id": "104931-2329929",
+    "name": "W Call Street and Psychology Way",
+    "lat": 30.445626,
+    "lng": -84.303449
+  },
+  {
+    "id": "104931-2329931",
+    "name": "Chieftan Way and Academic Way",
+    "lat": 30.447031,
+    "lng": -84.301994
+  },
+  {
+    "id": "104931-2329932",
+    "name": "Academic Way and Antarctic Way",
+    "lat": 30.446045,
+    "lng": -84.298873
+  },
+  {
+    "id": "104931-2329933",
+    "name": "Academic Way and Antarctic Way",
+    "lat": 30.446188,
+    "lng": -84.29877
+  },
+  {
+    "id": "104931-2329934",
+    "name": "W Tennessee Street and Dewey Street",
+    "lat": 30.44458,
+    "lng": -84.294178
+  },
+  {
+    "id": "104931-2329935",
+    "name": "Oglesby Union",
+    "lat": 30.444934,
+    "lng": -84.296332
+  },
+  {
+    "id": "104931-2329936",
+    "name": "W Call Street and Dewey Street",
+    "lat": 30.443533,
+    "lng": -84.293419
+  },
+  {
+    "id": "104931-2329944",
+    "name": "S Adams Street and W Park Avenue",
+    "lat": 30.441953,
+    "lng": -84.282012
+  },
+  {
+    "id": "104931-2329991",
+    "name": "W Call Street and Copeland",
+    "lat": 30.443552,
+    "lng": -84.291924
+  },
+  {
+    "id": "104931-2329993",
+    "name": "W Jefferson Street at Ragan Hall",
+    "lat": 30.43955,
+    "lng": -84.299404
+  },
+  {
+    "id": "104931-2329994",
+    "name": "W Jefferson Street at Dodd Hall",
+    "lat": 30.439574,
+    "lng": -84.292697
+  },
+  {
+    "id": "104931-2329995",
+    "name": "W Jefferson Street and Varsity Drive",
+    "lat": 30.439703,
+    "lng": -84.299591
+  },
+  {
+    "id": "104931-2329996",
+    "name": "Chieftan Way at Circus Complex",
+    "lat": 30.439875,
+    "lng": -84.302898
+  },
+  {
+    "id": "104931-2329998",
+    "name": "Tully Gym",
+    "lat": 30.44218,
+    "lng": -84.30274
+  },
+  {
+    "id": "104931-2329999",
+    "name": "Spirit Way and Stadium Drive",
+    "lat": 30.44256,
+    "lng": -84.305144
+  },
+  {
+    "id": "104931-2330028",
+    "name": "S Stadium Drive and Spirit Way",
+    "lat": 30.443169,
+    "lng": -84.306401
+  },
+  {
+    "id": "104931-2330029",
+    "name": "Hayden Road and Bellevue Way",
+    "lat": 30.437428,
+    "lng": -84.307491
+  },
+  {
+    "id": "104931-2330030",
+    "name": "Bellevue Way and Rivoli Road",
+    "lat": 30.438077,
+    "lng": -84.309226
+  },
+  {
+    "id": "104931-2330036",
+    "name": "W Brevard Street and Dewey Street",
+    "lat": 30.449094,
+    "lng": -84.293812
+  },
+  {
+    "id": "104931-2330037",
+    "name": "Woodward Avenue and Delaware Street",
+    "lat": 30.45219,
+    "lng": -84.298114
+  },
+  {
+    "id": "104931-2330038",
+    "name": "Birmingham Street and Preston Street",
+    "lat": 30.452762,
+    "lng": -84.299046
+  },
+  {
+    "id": "104931-2330039",
+    "name": "Preston Street and Richmond Street",
+    "lat": 30.452785,
+    "lng": -84.302764
+  },
+  {
+    "id": "104931-2330040",
+    "name": "Preston Street and Basin Street",
+    "lat": 30.452703,
+    "lng": -84.3063
+  },
+  {
+    "id": "104931-2330044",
+    "name": "Joe Louis Street and Alabama Street",
+    "lat": 30.456444,
+    "lng": -84.304904
+  },
+  {
+    "id": "104931-2330045",
+    "name": "Alabama Street and Dade Street",
+    "lat": 30.456316,
+    "lng": -84.297272
+  },
+  {
+    "id": "104931-2330047",
+    "name": "Old Bainbridge Road and W 4th Avenue",
+    "lat": 30.453769,
+    "lng": -84.292734
+  },
+  {
+    "id": "104931-2330048",
+    "name": "N Macomb Street and Georgia Street",
+    "lat": 30.447403,
+    "lng": -84.288373
+  },
+  {
+    "id": "104931-2330049",
+    "name": "N Macomb Street and W Brevard Street",
+    "lat": 30.449187,
+    "lng": -84.288595
+  },
+  {
+    "id": "104931-2330050",
+    "name": "N Macomb Street and Goodbread Lane",
+    "lat": 30.451139,
+    "lng": -84.288487
+  },
+  {
+    "id": "104931-2330111",
+    "name": "Fourth Avenue and N Macomb Street",
+    "lat": 30.453587,
+    "lng": -84.2887
+  },
+  {
+    "id": "104931-2330195",
+    "name": "W Lake Bradford Road and Crate Street",
+    "lat": 30.432202,
+    "lng": -84.302155
+  },
+  {
+    "id": "104931-2330235",
+    "name": "S Duval Street and W Jefferson Street",
+    "lat": 30.439893,
+    "lng": -84.283048
+  },
+  {
+    "id": "104931-2330237",
+    "name": "S Bronough Street and Pensacola Street",
+    "lat": 30.438215,
+    "lng": -84.284516
+  },
+  {
+    "id": "104931-2330238",
+    "name": "S Bronough Street and W Harrison Street",
+    "lat": 30.430639,
+    "lng": -84.282953
+  },
+  {
+    "id": "104931-2330240",
+    "name": "S Duval Street at W Madison Parking Garage",
+    "lat": 30.436175,
+    "lng": -84.28304
+  },
+  {
+    "id": "104931-2330241",
+    "name": "S Duval Street and W Park Avenue",
+    "lat": 30.441748,
+    "lng": -84.283036
+  },
+  {
+    "id": "104931-2330269",
+    "name": "C.K. Steele Plaza Gate 17",
+    "lat": 30.443813,
+    "lng": -84.282571
+  },
+  {
+    "id": "104931-2330276",
+    "name": "C.K. Steele Plaza Gate 12",
+    "lat": 30.444461,
+    "lng": -84.2825
+  },
+  {
+    "id": "104931-2330279",
+    "name": "C.K. Steele Plaza Gate 16",
+    "lat": 30.443969,
+    "lng": -84.282294
+  },
+  {
+    "id": "104931-2330282",
+    "name": "C.K. Steele Plaza Gate 18",
+    "lat": 30.443958,
+    "lng": -84.282756
+  },
+  {
+    "id": "104931-2330283",
+    "name": "C.K. Steele Plaza Gate 8",
+    "lat": 30.444207,
+    "lng": -84.282535
+  },
+  {
+    "id": "104931-2330284",
+    "name": "S Bronough Street and W Gaines Street",
+    "lat": 30.434753,
+    "lng": -84.284388
+  },
+  {
+    "id": "104931-2330285",
+    "name": "C.K. Steele Plaza Gate 14",
+    "lat": 30.444236,
+    "lng": -84.282189
+  },
+  {
+    "id": "104931-2330286",
+    "name": "S Duval Street and W Harrison Street",
+    "lat": 30.430251,
+    "lng": -84.282553
+  },
+  {
+    "id": "104931-2330292",
+    "name": "W Jefferson Street and Gray Street",
+    "lat": 30.439647,
+    "lng": -84.293646
+  },
+  {
+    "id": "104931-2330293",
+    "name": "C.K. Steele Plaza Gate 20",
+    "lat": 30.444082,
+    "lng": -84.282799
+  },
+  {
+    "id": "104931-2330308",
+    "name": "C.K. Steele Plaza Gate 7",
+    "lat": 30.444097,
+    "lng": -84.282231
+  },
+  {
+    "id": "104931-2330326",
+    "name": "Tennessee Street and Wadsworth Street",
+    "lat": 30.448737,
+    "lng": -84.304655
+  },
+  {
+    "id": "104931-2330327",
+    "name": "W Tennessee Street and N Woodward Avenue",
+    "lat": 30.446339,
+    "lng": -84.298848
+  },
+  {
+    "id": "104931-2330334",
+    "name": "W Tennessee Street and N Martin Luther King Jr Boulevard",
+    "lat": 30.444785,
+    "lng": -84.285522
+  },
+  {
+    "id": "104931-2330338",
+    "name": "C.K. Steele Plaza Gate 15",
+    "lat": 30.444047,
+    "lng": -84.282204
+  },
+  {
+    "id": "104931-2330340",
+    "name": "C.K. Steele Plaza Gate 9",
+    "lat": 30.444233,
+    "lng": -84.282784
+  },
+  {
+    "id": "104931-2330341",
+    "name": "C.K. Steele Plaza Gate 1",
+    "lat": 30.444383,
+    "lng": -84.282919
+  },
+  {
+    "id": "104931-2330343",
+    "name": "C.K. Steele Plaza Gate 10",
+    "lat": 30.444269,
+    "lng": -84.282826
+  },
+  {
+    "id": "104931-2330344",
+    "name": "C.K. Steele Plaza Gate 11",
+    "lat": 30.444388,
+    "lng": -84.282681
+  },
+  {
+    "id": "104931-2330346",
+    "name": "C.K. Steele Plaza Gate 13",
+    "lat": 30.444364,
+    "lng": -84.282336
+  },
+  {
+    "id": "104931-2330347",
+    "name": "C.K. Steele Plaza Gate 21",
+    "lat": 30.443845,
+    "lng": -84.282576
+  },
+  {
+    "id": "104931-2330348",
+    "name": "C.K. Steele Plaza Gate 22",
+    "lat": 30.444092,
+    "lng": -84.282255
+  },
+  {
+    "id": "104931-2330350",
+    "name": "C.K. Steele Plaza Gate 19",
+    "lat": 30.444029,
+    "lng": -84.282831
+  },
+  {
+    "id": "104931-2330356",
+    "name": "Jackson Bluff Road and Airport Drive",
+    "lat": 30.434377,
+    "lng": -84.310984
+  },
+  {
+    "id": "104931-2330357",
+    "name": "Jackson Bluff Road and Hendry Street",
+    "lat": 30.434385,
+    "lng": -84.306655
+  },
+  {
+    "id": "104931-2330360",
+    "name": "Copeland Street and W College Avenue",
+    "lat": 30.440699,
+    "lng": -84.290808
+  },
+  {
+    "id": "104931-2330362",
+    "name": "W College Avenue and Martin Luther King Jr Boulevard",
+    "lat": 30.440669,
+    "lng": -84.285958
+  },
+  {
+    "id": "104931-2330375",
+    "name": "Florida State University 1st Circle",
+    "lat": 30.438165,
+    "lng": -84.302659
+  },
+  {
+    "id": "104931-2330378",
+    "name": "W Pensacola Street and Atkinson Drive",
+    "lat": 30.440256,
+    "lng": -84.311284
+  },
+  {
+    "id": "104931-2330382",
+    "name": "Florida State University Student Union",
+    "lat": 30.44506,
+    "lng": -84.296308
+  },
+  {
+    "id": "104931-2330384",
+    "name": "W Tennessee Street and Woodward Avenue",
+    "lat": 30.446136,
+    "lng": -84.297764
+  },
+  {
+    "id": "104931-2330386",
+    "name": "W Jefferson Street at Lorene Street",
+    "lat": 30.439693,
+    "lng": -84.295909
+  },
+  {
+    "id": "104931-2330396",
+    "name": "W College Avenue at Klemen Plaza",
+    "lat": 30.440677,
+    "lng": -84.283173
+  },
+  {
+    "id": "104931-2330397",
+    "name": "W Jefferson Street and S Copeland Street",
+    "lat": 30.439672,
+    "lng": -84.290298
+  },
+  {
+    "id": "104931-2330402",
+    "name": "Chieftan Way and W Call Street",
+    "lat": 30.445079,
+    "lng": -84.302322
+  },
+  {
+    "id": "104931-2330409",
+    "name": "W Tennessee Street and N Macomb Street",
+    "lat": 30.444558,
+    "lng": -84.288891
+  },
+  {
+    "id": "104931-2330438",
+    "name": "W College Avenue and S Bronough Street",
+    "lat": 30.440758,
+    "lng": -84.284278
+  },
+  {
+    "id": "104931-2330449",
+    "name": "N Duval Street and W Georgia Street",
+    "lat": 30.447892,
+    "lng": -84.283023
+  },
+  {
+    "id": "104931-2330456",
+    "name": "N Bronough Street and W 7th Avenue",
+    "lat": 30.457936,
+    "lng": -84.284454
+  },
+  {
+    "id": "104931-2330457",
+    "name": "N Bronough Street and 4th Avenue",
+    "lat": 30.453263,
+    "lng": -84.284447
+  },
+  {
+    "id": "104931-2330458",
+    "name": "N Bronough Street and W Georgia Street",
+    "lat": 30.447765,
+    "lng": -84.284444
+  },
+  {
+    "id": "104931-2330465",
+    "name": "N Duval Street and W 4th Avenue",
+    "lat": 30.453515,
+    "lng": -84.282996
+  },
+  {
+    "id": "104931-2330532",
+    "name": "Basin Street and Arizona Street",
+    "lat": 30.454392,
+    "lng": -84.306497
+  },
+  {
+    "id": "104931-2330533",
+    "name": "Basin Street and Alabama Street",
+    "lat": 30.456181,
+    "lng": -84.306487
+  },
+  {
+    "id": "104931-2330534",
+    "name": "Macomb Street and Gaines Street",
+    "lat": 30.435816,
+    "lng": -84.289859
+  },
+  {
+    "id": "104931-2330535",
+    "name": "Rail Road and All Saints Street",
+    "lat": 30.433868,
+    "lng": -84.28984
+  },
+  {
+    "id": "104931-2330541",
+    "name": "Rail Road and Gaines Street",
+    "lat": 30.435199,
+    "lng": -84.289611
+  },
+  {
+    "id": "104931-2330542",
+    "name": "S Macomb Street and W College Avenue",
+    "lat": 30.440537,
+    "lng": -84.288372
+  },
+  {
+    "id": "104931-2330543",
+    "name": "N Macomb Street and W Tennessee Street",
+    "lat": 30.444482,
+    "lng": -84.288363
+  },
+  {
+    "id": "104931-2330580",
+    "name": "W Gaines Street west of S Woodward Avenue",
+    "lat": 30.435471,
+    "lng": -84.298759
+  },
+  {
+    "id": "104931-2330581",
+    "name": "W Gaines Street and Gay Street",
+    "lat": 30.435406,
+    "lng": -84.293273
+  },
+  {
+    "id": "104931-2330582",
+    "name": "W Gaines Street and Railroad Avenue",
+    "lat": 30.435423,
+    "lng": -84.289883
+  },
+  {
+    "id": "104931-2330583",
+    "name": "W Gaines Street and S Bronough Street",
+    "lat": 30.435419,
+    "lng": -84.283875
+  },
+  {
+    "id": "104931-2330594",
+    "name": "W Gaines Street and S Bronough Street",
+    "lat": 30.435609,
+    "lng": -84.284209
+  },
+  {
+    "id": "104931-2330595",
+    "name": "W Gaines Street and Railroad Avenue",
+    "lat": 30.435548,
+    "lng": -84.289622
+  },
+  {
+    "id": "104931-2330596",
+    "name": "W Gaines Street and Gay Street",
+    "lat": 30.435577,
+    "lng": -84.292876
+  },
+  {
+    "id": "104931-2330601",
+    "name": "Alabama Street and Abraham Street",
+    "lat": 30.45625,
+    "lng": -84.300482
+  },
+  {
+    "id": "104931-2330602",
+    "name": "N Macomb Street and W Virginia Street",
+    "lat": 30.44649,
+    "lng": -84.28861
+  },
+  {
+    "id": "104931-2330603",
+    "name": "N Woodward Avenue and Dunn Street",
+    "lat": 30.449796,
+    "lng": -84.298089
+  },
+  {
+    "id": "104931-2330613",
+    "name": "N Duval Street and W 7th Avenue",
+    "lat": 30.45763,
+    "lng": -84.282965
+  },
+  {
+    "id": "104931-2330615",
+    "name": "Alabama Street and Harlem Street",
+    "lat": 30.456262,
+    "lng": -84.303329
+  },
+  {
+    "id": "104931-2330618",
+    "name": "W College Avenue and S Macomb Street",
+    "lat": 30.440653,
+    "lng": -84.28868
+  },
+  {
+    "id": "104931-2330630",
+    "name": "W Brevard Street and N Copeland Street",
+    "lat": 30.449089,
+    "lng": -84.290122
+  },
+  {
+    "id": "104931-2330632",
+    "name": "W Call Street and Dewey Street",
+    "lat": 30.443623,
+    "lng": -84.293823
+  },
+  {
+    "id": "104931-2330635",
+    "name": "S Duval Street and at W Gaines Street",
+    "lat": 30.435311,
+    "lng": -84.283021
+  },
+  {
+    "id": "104931-2330662",
+    "name": "N Macomb Street and W Call Street",
+    "lat": 30.443767,
+    "lng": -84.288572
+  },
+  {
+    "id": "104931-2330682",
+    "name": "W Call Street and Stadium Drive",
+    "lat": 30.446286,
+    "lng": -84.305346
+  },
+  {
+    "id": "104931-2330690",
+    "name": "W Madison Street and Gay Street",
+    "lat": 30.436594,
+    "lng": -84.293189
+  },
+  {
+    "id": "104931-2330702",
+    "name": "Stadium Drive and Spirit Way",
+    "lat": 30.442713,
+    "lng": -84.30661
+  },
+  {
+    "id": "104931-2330712",
+    "name": "W Jefferson Street at Dorman Hall",
+    "lat": 30.439576,
+    "lng": -84.296598
+  },
+  {
+    "id": "104931-2330713",
+    "name": "W Call Street and Convocation Way",
+    "lat": 30.443634,
+    "lng": -84.291985
+  },
+  {
+    "id": "104931-2387599",
+    "name": "C.K.Steele Plaza",
+    "lat": 30.44417,
+    "lng": -84.282491
+  },
+  {
+    "id": "104931-2436485",
+    "name": "W Virginia Street & N Macomb Street",
+    "lat": 30.445829,
+    "lng": -84.288238
+  },
+  {
+    "id": "104931-2452888",
+    "name": "Varsity Drive and W Pensacola Street",
+    "lat": 30.438506,
+    "lng": -84.300656
+  },
+  {
+    "id": "104931-2555772",
+    "name": "Chieftan Way and Kellum Hall",
+    "lat": 30.446773,
+    "lng": -84.302088
+  },
+  {
+    "id": "104931-2555773",
+    "name": "Chieftan Way and Call Street Sb",
+    "lat": 30.445489,
+    "lng": -84.302462
+  },
+  {
+    "id": "104931-2558949",
+    "name": "4th Ave at Leverne Payne Community Center",
+    "lat": 30.453661,
+    "lng": -84.28743
+  },
+  {
+    "id": "104931-2558950",
+    "name": "W 4th Ave at Ford St",
+    "lat": 30.453703,
+    "lng": -84.289761
+  },
+  {
+    "id": "104931-2558951",
+    "name": "Gibbs Dr. at 5th Ave",
+    "lat": 30.454813,
+    "lng": -84.291779
+  },
+  {
+    "id": "104931-2558952",
+    "name": "Gibbs Dr at W 7th Ave",
+    "lat": 30.457712,
+    "lng": -84.291777
+  },
+  {
+    "id": "104931-2558972",
+    "name": "Gibbs Dr at 7th Ave",
+    "lat": 30.457872,
+    "lng": -84.291901
+  },
+  {
+    "id": "104931-2558973",
+    "name": "Gibbs Dr at 6th Ave",
+    "lat": 30.455876,
+    "lng": -84.291858
+  },
+  {
+    "id": "104931-2559050",
+    "name": "W 4th Ave and Central St",
+    "lat": 30.453594,
+    "lng": -84.290993
+  },
+  {
+    "id": "104931-2559051",
+    "name": "Varsity at Saint Agustine",
+    "lat": 30.43766,
+    "lng": -84.300907
+  },
+  {
+    "id": "104931-2559320",
+    "name": "Old St Augustine at Intramural Field",
+    "lat": 30.437596,
+    "lng": -84.299832
+  },
+  {
+    "id": "104931-2559321",
+    "name": "West St Augustine at Gay Street (Eastbound)",
+    "lat": 30.437405,
+    "lng": -84.293167
+  },
+  {
+    "id": "104931-2574557",
+    "name": "W Call St at Palm Court Parking Lot",
+    "lat": 30.44357,
+    "lng": -84.289565
+  },
+  {
+    "id": "104931-2740090",
+    "name": "Jefferson at College of Law",
+    "lat": 30.439687,
+    "lng": -84.287737
+  },
+  {
+    "id": "104931-2751941",
+    "name": "College Avenue and Mccomb Street",
+    "lat": 30.440312,
+    "lng": -84.288593
+  }
+]

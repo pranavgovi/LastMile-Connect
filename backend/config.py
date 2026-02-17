@@ -2,7 +2,7 @@ from pydantic_settings import BaseSettings
 
 
 class Settings(BaseSettings):
-    # Database
+    # Database (port 5433 matches docker-compose postgres mapping; use 5432 for local Postgres)
     DATABASE_URL: str = "postgresql+asyncpg://postgres:postgres@localhost:5433/lastmile"
 
     # Redis
@@ -16,6 +16,8 @@ class Settings(BaseSettings):
     # Session / location TTL (seconds)
     SESSION_LOCATION_TTL_SECONDS: int = 300
 
+    # Set to true to drop all tables and recreate on startup (fixes schema e.g. has_vehicle). All data is lost.
+    RESET_DB: bool = False
     # OAuth (optional)
     GOOGLE_CLIENT_ID: str = ""
     GOOGLE_CLIENT_SECRET: str = ""

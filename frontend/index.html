@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LastMile-Connect</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div id="app">
+    <header class="header">
+      <h1 class="logo">LastMile-Connect</h1>
+      <div id="auth-buttons" class="auth-buttons">
+        <button type="button" id="btn-login" class="btn btn-ghost">Sign in</button>
+        <button type="button" id="btn-register" class="btn btn-ghost">Create account</button>
+        <span id="user-info" class="user-info hidden"><img id="user-avatar" class="user-avatar" alt="" /><span id="user-name-email" class="user-name-email"></span></span>
+        <button type="button" id="btn-logout" class="btn btn-outline hidden">Logout</button>
+      </div>
+    </header>
+
+    <div id="auth-panels" class="auth-screen">
+      <div class="auth-card">
+        <div id="panel-login" class="auth-panel">
+          <h2>Sign in</h2>
+          <p class="auth-hint">Enter your email and password.</p>
+          <form id="form-login" class="auth-form">
+            <label for="login-email">Email</label>
+            <input type="email" id="login-email" placeholder="you@example.com" required autocomplete="email" />
+            <label for="login-password">Password</label>
+            <input type="password" id="login-password" placeholder="Password" required autocomplete="current-password" />
+            <div id="login-error" class="error-msg hidden"></div>
+            <button type="submit" id="submit-login" class="btn btn-primary btn-block">Sign in</button>
+          </form>
+        </div>
+        <div id="panel-register" class="auth-panel hidden">
+          <h2>Create account</h2>
+          <p class="auth-hint">Add your name so others can see who they're matching with.</p>
+          <form id="form-register" class="auth-form">
+            <label for="register-name">Name</label>
+            <input type="text" id="register-name" placeholder="Your display name" maxlength="255" autocomplete="name" />
+            <label for="register-email">Email</label>
+            <input type="email" id="register-email" placeholder="you@example.com" required autocomplete="email" />
+            <label for="register-password">Password</label>
+            <input type="password" id="register-password" placeholder="At least 6 characters" required autocomplete="new-password" minlength="6" />
+            <div id="register-error" class="error-msg hidden"></div>
+            <button type="submit" id="submit-register" class="btn btn-primary btn-block">Create account</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <main id="main" class="hidden">
+      <aside class="sidebar">
+        <section class="sidebar-section profile-section">
+          <h3>Profile</h3>
+          <div class="profile-avatar-row">
+            <img id="profile-avatar" class="profile-avatar" src="" alt="Your photo" />
+            <div>
+              <label class="checkbox-label"><input type="checkbox" id="profile-has-vehicle" /> I have a vehicle</label>
+              <p class="sidebar-hint">Walker matches walker or vehicle; vehicle matches walker only.</p>
+              <label for="profile-name" class="profile-name-label">Name</label>
+              <input type="text" id="profile-name" class="profile-name-input" placeholder="Display name" maxlength="255" />
+              <p class="sidebar-hint">Upload a photo so matches can see you (builds trust).</p>
+              <input type="file" id="profile-avatar-input" accept=".jpg,.jpeg,.png,.webp" class="profile-file-input" />
+            </div>
+          </div>
+        </section>
+        <section class="sidebar-section">
+          <h3>Create intent</h3>
+          <p class="sidebar-hint">Origin: <button type="button" id="use-my-location" class="btn btn-sm">Use my location</button> or from bus stop (FSU):</p>
+          <select id="origin-bus-stop" class="select">
+            <option value="">— Select bus stop —</option>
+          </select>
+          <p id="origin-status" class="status-text"></p>
+          <p class="sidebar-hint">Destination: click on the map</p>
+          <p id="destination-status" class="status-text"></p>
+          <div id="walk-guidance" class="walk-guidance hidden"></div>
+          <button type="button" id="submit-intent" class="btn btn-primary" disabled>Create intent</button>
+        </section>
+        <section class="sidebar-section">
+          <h3>My intents</h3>
+          <div id="intents-list" class="list-box"></div>
+          <button type="button" id="refresh-intents" class="btn btn-sm">Refresh</button>
+        </section>
+        <section class="sidebar-section">
+          <h3>Find matches</h3>
+          <select id="match-intent-select" class="select"></select>
+          <button type="button" id="fetch-matches" class="btn btn-sm">Find matches</button>
+          <div id="matches-list" class="list-box"></div>
+        </section>
+        <section class="sidebar-section">
+          <h3>My sessions</h3>
+          <div id="sessions-list" class="list-box"></div>
+          <button type="button" id="refresh-sessions" class="btn btn-sm">Refresh</button>
+        </section>
+        <div id="sos-banner" class="sos-banner hidden">SOS requested for this session</div>
+      </aside>
+      <div id="map-container" class="map-container"></div>
+    </main>
+  </div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="/static/data/bus-stops.js"></script>
+  <script src="/static/app.js"></script>
+  <script src="/static/map.js"></script>
+</body>
+</html>

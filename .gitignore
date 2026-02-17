@@ -28,3 +28,6 @@ Thumbs.db
 # Logs and local data
 *.log
 local_db_storage/
+
+# User uploads (avatars) – kept on disk, not in git
+uploads/

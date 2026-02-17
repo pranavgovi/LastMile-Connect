@@ -1,8 +1,10 @@
 # LastMile-Connect
 
-## Phase 1 – Run locally
+Safety-first last-mile coordination: short-lived intents, intent matching, anonymous time-bound sessions, live location (WebSocket + Redis), and mock SOS.
 
-1. **Create a virtual env and install dependencies**
+## Run locally
+
+1. **Virtual env and dependencies**
    ```bash
    cd LastMile-Connect
    python -m venv .venv
@@ -10,23 +12,30 @@
    pip install -r backend/requirements.txt
    ```
 
-2. **Optional: start Postgres + Redis with Docker**
+2. **Postgres + Redis (Docker)**
    ```bash
    docker-compose up -d
    ```
-   Copy `.env.example` to `.env` if you want to override defaults.
+   Copy `.env.example` to `.env` to override defaults.
 
-3. **Run the API** (from project root)
+3. **Run the app** (from project root)
    ```bash
-   cd LastMile-Connect
    python run.py
    # or: uvicorn backend.main:app --reload
    ```
-   - Root: http://127.0.0.1:8000/
-   - Health: http://127.0.0.1:8000/api/health
+   - **Frontend:** http://127.0.0.1:8000/
+   - **API:** http://127.0.0.1:8000/api
+   - **Health:** http://127.0.0.1:8000/api/health
 
-4. **If you see "database lastmile does not exist"**
-   - Ensure Docker Postgres is the one on port 5432: `docker-compose up -d` and stop any local PostgreSQL that uses 5432.
-   - Create the DB in the container (if needed):  
-     `docker-compose exec postgres psql -U postgres -c "CREATE DATABASE lastmile;"`
-   - The app defaults to `postgresql+asyncpg://postgres:postgres@localhost:5433/lastmile` (Docker Postgres on port **5433** to avoid conflict with a local Postgres on 5432). Copy `.env.example` to `.env` and set `DATABASE_URL` if needed.
+## Flow
+
+1. **Register / Login** → get JWT.
+2. **Create intent** → Use my location (GPS) + click map for destination → Create intent.
+3. **Find matches** → Select your intent → Find matches → Create session with another intent.
+4. **Sessions** → Accept → Activate → (optional) SOS. When ACTIVE, location is streamed via WebSocket and shown on the map.
+5. **Complete / Abort** → End session. Auto-end runs for time limit.
+
+## DB / Redis
+
+- **Database:** `postgresql+asyncpg://...@localhost:5433/lastmile` (PostGIS). Create DB if needed: `docker-compose exec postgres psql -U postgres -c "CREATE DATABASE lastmile;"`
+- **Redis:** Ephemeral session locations (TTL). Used for live map and optional auto-end.

@@ -30,3 +30,34 @@ class IntentResponse(BaseModel):
 
     class Config:
         from_attributes = True
+
+
+class MatchCardResponse(BaseModel):
+    """One match candidate for an intent: other user's intent with buddy score for ranking."""
+    intent_id: int
+    user_id: int
+    name: str | None = None
+    avatar_url: str | None = None
+    has_vehicle: bool
+    origin_lat: float
+    origin_lng: float
+    dest_lat: float
+    dest_lng: float
+    buddy_score: float
+    route_overlap_score: float
+    past_rating_avg: float | None
+    same_bus_stop: bool = False
+
+
+class BusStopNearbyResponse(BaseModel):
+    """Intent from someone who got off at the same bus stop (~same time). For 'Tag along'."""
+    intent_id: int
+    user_id: int
+    name: str | None = None
+    avatar_url: str | None = None
+    has_vehicle: bool
+    origin_lat: float
+    origin_lng: float
+    dest_lat: float
+    dest_lng: float
+    created_at: datetime
